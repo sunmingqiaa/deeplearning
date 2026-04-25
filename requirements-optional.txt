@@ -1,0 +1,14 @@
+# Optional framework track dependencies.
+# The lab scripts in this repo run with the Python standard library first.
+# Use these when you are ready to rewrite the exercises with PyTorch and richer tooling.
+#
+# If torch installation fails on the system Python, create a Python 3.11/3.12
+# virtual environment and install there.
+numpy
+matplotlib
+scikit-learn
+torch
+torchvision
+fastapi
+uvicorn
+pytest

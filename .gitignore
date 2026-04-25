@@ -1,0 +1,37 @@
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local config
+.env
+.env.*
+
+# Logs and generated outputs
+*.log
+labs/**/outputs/
+experiments/**/checkpoints/
+experiments/**/plots/
+
+# Large or regenerated datasets
+datasets/raw/*
+datasets/processed/*
+!datasets/raw/.gitkeep
+!datasets/processed/.gitkeep
+!datasets/samples/.gitkeep
+
+# Model artifacts
+*.pt
+*.pth
+*.onnx
+*.ckpt
